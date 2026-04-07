@@ -1,7 +1,12 @@
 aid: vishay-intertechnology
-url: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.vishay-intertechnology.com
+description: >-
+  Vishay Intertechnology is one of the world's largest manufacturers of discrete semiconductors
+  and passive electronic components used in industrial, computing, automotive, consumer,
+  telecommunications, military, aerospace, and medical applications.
