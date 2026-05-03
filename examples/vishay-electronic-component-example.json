@@ -1,0 +1,24 @@
+{
+  "partNumber": "VSMD2S4",
+  "manufacturer": "Vishay Intertechnology",
+  "category": "Diodes",
+  "subcategory": "Small Signal Schottky Diode",
+  "description": "Small Signal Schottky Diode, Dual, Common Cathode, 40V, 200mA, SOD-323 Package",
+  "specifications": {
+    "voltageRating": "40V",
+    "currentRating": "200mA",
+    "powerRating": "200mW",
+    "tolerance": null,
+    "packageType": "SOD-323",
+    "temperatureRange": "-65°C to +125°C"
+  },
+  "datasheet": "https://www.vishay.com/docs/85781/vsmd2s4.pdf",
+  "productPage": "https://www.vishay.com/product/?docid=85781",
+  "applications": [
+    "Consumer",
+    "Computing",
+    "Telecommunications"
+  ],
+  "rohs": true,
+  "msLevel": "1"
+}

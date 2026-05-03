@@ -1,0 +1,161 @@
+name: Vishay Intertechnology Vocabulary
+description: >-
+  Domain vocabulary for Vishay Intertechnology electronic components, covering
+  discrete semiconductors, passive components, packaging, electrical specifications,
+  and industry application domains.
+version: '1.0'
+source: https://www.vishay.com/
+terms:
+  - term: Discrete Semiconductor
+    definition: >-
+      An individual semiconductor device in a single package, as opposed to an
+      integrated circuit. Vishay produces diodes, rectifiers, MOSFETs, and
+      transistors as discrete components.
+    tags:
+      - Core
+      - Semiconductors
+
+  - term: Passive Component
+    definition: >-
+      An electronic component that does not require external power to operate
+      and cannot amplify a signal. Vishay passive components include resistors,
+      capacitors, inductors, and thermistors.
+    tags:
+      - Core
+      - Passive Components
+
+  - term: MOSFET
+    definition: >-
+      Metal-Oxide-Semiconductor Field-Effect Transistor. A transistor used as a
+      switch or amplifier. Vishay produces a broad range of N-channel and P-channel
+      MOSFETs for power management and motor drive applications.
+    aliases:
+      - Metal-Oxide-Semiconductor FET
+    tags:
+      - Semiconductors
+
+  - term: Rectifier
+    definition: >-
+      A semiconductor device that converts alternating current (AC) to direct
+      current (DC). Vishay manufactures bridge rectifiers, fast rectifiers, and
+      ultrafast rectifiers.
+    tags:
+      - Semiconductors
+      - Power
+
+  - term: TVS Diode
+    definition: >-
+      Transient Voltage Suppressor diode. A protection device that clamps
+      voltage transients and spikes to protect circuits. Used in automotive and
+      industrial applications.
+    aliases:
+      - Transient Voltage Suppressor
+    tags:
+      - Semiconductors
+      - Protection
+
+  - term: Optoelectronics
+    definition: >-
+      Electronic components that detect and emit light, including infrared
+      emitters, IR receiver modules, optocouplers, LEDs, and photodetectors.
+      Vishay is a leading manufacturer of optoelectronic components.
+    tags:
+      - Semiconductors
+      - Optoelectronics
+
+  - term: Optocoupler
+    definition: >-
+      An electronic device that transfers signals between two isolated circuits
+      using light. Used for electrical isolation in industrial and medical
+      equipment. Also called an opto-isolator.
+    aliases:
+      - Opto-Isolator
+      - Photocoupler
+    tags:
+      - Optoelectronics
+
+  - term: Resistor
+    definition: >-
+      A passive component that limits current flow in a circuit. Vishay produces
+      thick-film, thin-film, wirewound, and foil resistors in surface-mount and
+      through-hole packages.
+    tags:
+      - Passive Components
+
+  - term: Capacitor
+    definition: >-
+      A passive component that stores and releases electrical energy. Vishay
+      manufactures tantalum, ceramic, film, and aluminum electrolytic capacitors.
+    tags:
+      - Passive Components
+
+  - term: Thermistor
+    definition: >-
+      A type of resistor whose resistance changes significantly with temperature.
+      Used for temperature sensing and inrush current protection in medical and
+      industrial applications.
+    tags:
+      - Passive Components
+      - Sensing
+
+  - term: Load Cell
+    definition: >-
+      A transducer that converts force or weight into an electrical signal.
+      Vishay produces precision load cells for industrial weighing and test
+      and measurement applications.
+    tags:
+      - Sensing
+      - Industrial
+
+  - term: Strain Gauge
+    definition: >-
+      A sensor that measures strain (deformation) in a material. Vishay produces
+      precision strain gauges for structural testing, experimental stress
+      analysis, and transducer fabrication.
+    aliases:
+      - Strain Gage
+    tags:
+      - Sensing
+      - Industrial
+
+  - term: Package Type
+    definition: >-
+      The physical format of an electronic component (e.g., SOD-123, TO-220,
+      SOT-23, 0402, 0603). Determines how the component is mounted on a PCB.
+    tags:
+      - Physical
+
+  - term: RoHS
+    definition: >-
+      Restriction of Hazardous Substances directive (EU). Restricts the use of
+      hazardous materials (lead, mercury, cadmium, etc.) in electrical equipment.
+      Most Vishay components are available in RoHS-compliant versions.
+    tags:
+      - Compliance
+      - Environmental
+
+  - term: BIN
+    definition: >-
+      A categorization of component characteristics (e.g., optical output bins
+      for LEDs, voltage bins for Zener diodes) within a part number family.
+    tags:
+      - Quality
+
+  - term: Vishay Parts Library
+    definition: >-
+      A cross-reference tool (VPL) that helps engineers find Vishay alternatives
+      for components used in industry reference designs, searchable by competitor
+      part number.
+    aliases:
+      - VPL
+    tags:
+      - Tools
+      - Design
+
+  - term: Netcomponents
+    definition: >-
+      A global authorized distributor inventory search service that Vishay
+      partners with to provide real-time stock and pricing via API-based queries.
+    tags:
+      - Distribution
+      - Inventory

@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "@vocab": "https://www.vishay.com/vocab/",
+    "schema": "https://schema.org/",
+    "gs1": "https://www.gs1.org/voc/",
+    "eclass": "https://www.eclass.eu/",
+
+    "ElectronicComponent": {
+      "@id": "schema:Product",
+      "@type": "@id"
+    },
+    "Resistor": {
+      "@id": "https://www.vishay.com/vocab/Resistor",
+      "@type": "@id"
+    },
+    "Capacitor": {
+      "@id": "https://www.vishay.com/vocab/Capacitor",
+      "@type": "@id"
+    },
+    "Diode": {
+      "@id": "https://www.vishay.com/vocab/Diode",
+      "@type": "@id"
+    },
+    "MOSFET": {
+      "@id": "https://www.vishay.com/vocab/MOSFET",
+      "@type": "@id"
+    },
+    "Optoelectronic": {
+      "@id": "https://www.vishay.com/vocab/Optoelectronic",
+      "@type": "@id"
+    },
+    "Inductor": {
+      "@id": "https://www.vishay.com/vocab/Inductor",
+      "@type": "@id"
+    },
+
+    "partNumber": {
+      "@id": "schema:mpn",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "manufacturer": {
+      "@id": "schema:manufacturer"
+    },
+    "category": {
+      "@id": "schema:category"
+    },
+    "description": {
+      "@id": "schema:description"
+    },
+    "datasheet": {
+      "@id": "schema:documentation",
+      "@type": "@id"
+    },
+    "productPage": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "rohs": {
+      "@id": "https://www.vishay.com/vocab/rohsCompliant",
+      "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "voltageRating": {
+      "@id": "https://www.vishay.com/vocab/voltageRating"
+    },
+    "currentRating": {
+      "@id": "https://www.vishay.com/vocab/currentRating"
+    },
+    "powerRating": {
+      "@id": "https://www.vishay.com/vocab/powerRating"
+    },
+    "tolerance": {
+      "@id": "https://www.vishay.com/vocab/tolerance"
+    },
+    "packageType": {
+      "@id": "https://www.vishay.com/vocab/packageType"
+    },
+    "temperatureRange": {
+      "@id": "https://www.vishay.com/vocab/temperatureRange"
+    },
+    "applications": {
+      "@id": "schema:applicationCategory",
+      "@container": "@list"
+    },
+    "name": {
+      "@id": "schema:name"
+    }
+  }
+}

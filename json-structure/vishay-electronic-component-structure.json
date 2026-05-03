@@ -1,0 +1,92 @@
+{
+  "name": "VishayElectronicComponent",
+  "description": "Structure of a Vishay electronic component entry as returned by distributor APIs",
+  "fields": [
+    {
+      "name": "partNumber",
+      "type": "string",
+      "description": "Vishay manufacturer part number",
+      "required": true
+    },
+    {
+      "name": "manufacturer",
+      "type": "string",
+      "description": "Always Vishay Intertechnology",
+      "required": true
+    },
+    {
+      "name": "category",
+      "type": "string",
+      "description": "Component category (Resistors, MOSFETs, Diodes, etc.)",
+      "required": true
+    },
+    {
+      "name": "subcategory",
+      "type": "string",
+      "description": "Component series or subcategory",
+      "required": false
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "description": "Technical description",
+      "required": false
+    },
+    {
+      "name": "specifications",
+      "type": "object",
+      "description": "Electrical and physical specifications",
+      "required": false,
+      "fields": [
+        {
+          "name": "voltageRating",
+          "type": "string",
+          "description": "Maximum voltage"
+        },
+        {
+          "name": "currentRating",
+          "type": "string",
+          "description": "Maximum current"
+        },
+        {
+          "name": "powerRating",
+          "type": "string",
+          "description": "Power dissipation"
+        },
+        {
+          "name": "tolerance",
+          "type": "string",
+          "description": "Value tolerance"
+        },
+        {
+          "name": "packageType",
+          "type": "string",
+          "description": "Component package"
+        },
+        {
+          "name": "temperatureRange",
+          "type": "string",
+          "description": "Operating temperature"
+        }
+      ]
+    },
+    {
+      "name": "datasheet",
+      "type": "string",
+      "description": "URL to PDF datasheet",
+      "required": false
+    },
+    {
+      "name": "applications",
+      "type": "array",
+      "description": "Target markets",
+      "required": false
+    },
+    {
+      "name": "rohs",
+      "type": "boolean",
+      "description": "RoHS compliance",
+      "required": false
+    }
+  ]
+}

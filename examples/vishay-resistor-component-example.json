@@ -1,0 +1,25 @@
+{
+  "partNumber": "CRCW04021K00FKED",
+  "manufacturer": "Vishay Intertechnology",
+  "category": "Resistors",
+  "subcategory": "Thick Film Chip Resistor",
+  "description": "Thick Film Chip Resistor 0402 1kΩ ±1% 1/16W",
+  "specifications": {
+    "resistance": "1kΩ",
+    "tolerance": "±1%",
+    "powerRating": "0.0625W",
+    "voltageRating": "50V",
+    "packageType": "0402 (1005 Metric)",
+    "temperatureRange": "-55°C to +155°C"
+  },
+  "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+  "productPage": "https://www.vishay.com/product/?docid=20035",
+  "applications": [
+    "Automotive",
+    "Industrial",
+    "Consumer",
+    "Computing"
+  ],
+  "rohs": true,
+  "msLevel": "1"
+}

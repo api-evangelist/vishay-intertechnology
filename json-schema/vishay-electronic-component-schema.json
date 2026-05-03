@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/main/json-schema/vishay-electronic-component-schema.json",
+  "title": "Vishay Electronic Component",
+  "description": "Schema for a Vishay electronic component including part identification, specifications, packaging, and category information",
+  "type": "object",
+  "properties": {
+    "partNumber": {
+      "type": "string",
+      "description": "Vishay manufacturer part number",
+      "example": "VSMD2S4"
+    },
+    "manufacturer": {
+      "type": "string",
+      "description": "Manufacturer name",
+      "const": "Vishay Intertechnology"
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary component category",
+      "enum": [
+        "Resistors",
+        "Capacitors",
+        "Inductors",
+        "Diodes",
+        "MOSFETs",
+        "Transistors",
+        "Optoelectronics",
+        "Rectifiers",
+        "TVS Diodes",
+        "Optocouplers",
+        "Thermistors",
+        "Potentiometers",
+        "Load Cells",
+        "Strain Gages",
+        "Integrated Circuits",
+        "Solid State Relays"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "Component subcategory or series name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Technical description of the component"
+    },
+    "specifications": {
+      "type": "object",
+      "description": "Key electrical and physical specifications",
+      "properties": {
+        "voltageRating": {
+          "type": "string",
+          "description": "Maximum voltage rating (e.g., 40V, 600V)"
+        },
+        "currentRating": {
+          "type": "string",
+          "description": "Maximum current rating (e.g., 1A, 10A)"
+        },
+        "powerRating": {
+          "type": "string",
+          "description": "Maximum power dissipation (e.g., 1W, 0.25W)"
+        },
+        "resistance": {
+          "type": "string",
+          "description": "Resistance value for resistors (e.g., 10kΩ)"
+        },
+        "capacitance": {
+          "type": "string",
+          "description": "Capacitance value for capacitors (e.g., 100nF)"
+        },
+        "inductance": {
+          "type": "string",
+          "description": "Inductance value for inductors (e.g., 10µH)"
+        },
+        "tolerance": {
+          "type": "string",
+          "description": "Value tolerance (e.g., ±1%, ±5%, ±10%)"
+        },
+        "temperatureRange": {
+          "type": "string",
+          "description": "Operating temperature range (e.g., -55°C to +150°C)"
+        },
+        "packageType": {
+          "type": "string",
+          "description": "Component package type (e.g., SOD-123, TO-220, 0402)"
+        }
+      }
+    },
+    "datasheet": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the component datasheet PDF"
+    },
+    "productPage": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the Vishay product page"
+    },
+    "applications": {
+      "type": "array",
+      "description": "Target markets and applications",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Automotive",
+          "Industrial",
+          "Computing",
+          "Consumer",
+          "Telecommunications",
+          "Military",
+          "Aerospace",
+          "Medical"
+        ]
+      }
+    },
+    "rohs": {
+      "type": "boolean",
+      "description": "Whether the component is RoHS compliant"
+    },
+    "msLevel": {
+      "type": "string",
+      "description": "Moisture sensitivity level for SMD components"
+    }
+  },
+  "required": ["partNumber", "category", "manufacturer"]
+}
