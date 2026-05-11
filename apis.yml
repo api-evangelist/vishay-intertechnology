@@ -85,6 +85,21 @@ common:
     url: json-ld/vishay-intertechnology-context.jsonld
   - type: Vocabulary
     url: vocabulary/vishay-intertechnology-vocabulary.yml
+  - type: Integrations
+    url: https://www.vishay.com/en/connectors/
+integrations:
+  - name: Vishay
+  - name: Sensors
+  - name: Reference Designs
+  - name: Search Button
+  - name: USA Flag
+  - name: ç®ä½China Flagä¸­æ
+  - name: æ¥æ¬èªJapan Flag
+  - name: export
+  - name: Datasheet
+  - name: Product Image
+  - name: âº GET THE LATEST NEWS
+  - name: ECIA Member
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
