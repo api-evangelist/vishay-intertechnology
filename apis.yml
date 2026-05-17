@@ -81,7 +81,7 @@ common:
     url: https://www.vishay.com/en/product-selector/
   - type: JSONSchema
     url: json-schema/vishay-electronic-component-schema.json
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/vishay-intertechnology-context.jsonld
   - type: Vocabulary
     url: vocabulary/vishay-intertechnology-vocabulary.yml
