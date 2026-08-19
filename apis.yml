@@ -38,7 +38,7 @@ tags:
   - Fortune 1000
 created: '2025'
 modified: '2026-05-03'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: vishay-intertechnology:vishay-parts-data-via-octopart
     name: Vishay Parts Data via Octopart/Nexar API
