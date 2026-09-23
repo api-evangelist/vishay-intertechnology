@@ -1,7 +1,9 @@
 ---
 title: Vishay Intertechnology, Inc. (VSH) Presents at J.P. Morgan ...
 url: https://seekingalpha.com/article/4907641-vishay-intertechnology-inc-vsh-presents-at-j-p-morgan-54th-annual-global-technology-media-and
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Vishay Intertechnology" press release artificial intelligence'
 position: 2
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Vishay Intertechnology Q1 Earnings Call Highlights
 url: https://www.marketbeat.com/instant-alerts/vishay-intertechnology-q1-earnings-call-highlights-2026-05-15/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Vishay Intertechnology" press release artificial intelligence'
 position: 4
 source: serpapi-google

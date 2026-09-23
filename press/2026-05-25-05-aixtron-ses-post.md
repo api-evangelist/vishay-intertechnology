@@ -1,7 +1,9 @@
 ---
 title: AIXTRON SE's Post
 url: https://www.linkedin.com/posts/aixtron-se_newport-pressrelease-sic-activity-7188436242999508993-lOmB
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Vishay Intertechnology" press release artificial intelligence'
 position: 5
 source: serpapi-google
